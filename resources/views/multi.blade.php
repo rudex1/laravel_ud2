@@ -15,7 +15,7 @@
 		</form>
 		<br>
 
-		@if (isset($_POST['submit']) )
+        @if (isset($nombre) )
     		<h4>KAIXO {{$nombre}}!</h4>
     		<h4>Hola {{$nombre}}!</h4>
     		<h4>Salut {{$nombre}}!</h4>
